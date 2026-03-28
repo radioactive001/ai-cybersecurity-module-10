@@ -1,0 +1,1389 @@
+{
+  "version": "1.153.1",
+  "results": [
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+      "start": {
+        "line": 13,
+        "col": 17,
+        "offset": 354
+      },
+      "end": {
+        "line": 30,
+        "col": 24,
+        "offset": 1398
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+      "start": {
+        "line": 14,
+        "col": 17,
+        "offset": 388
+      },
+      "end": {
+        "line": 31,
+        "col": 24,
+        "offset": 1272
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.django-no-csrf-token.django-no-csrf-token",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\export_summary.html",
+      "start": {
+        "line": 12,
+        "col": 17,
+        "offset": 301
+      },
+      "end": {
+        "line": 26,
+        "col": 24,
+        "offset": 1182
+      },
+      "extra": {
+        "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks.",
+        "metadata": {
+          "category": "security",
+          "cwe": "CWE-352: Cross-Site Request Forgery (CSRF)",
+          "references": [
+            "https://docs.djangoproject.com/en/4.2/howto/csrf/"
+          ],
+          "confidence": "MEDIUM",
+          "likelihood": "MEDIUM",
+          "impact": "MEDIUM",
+          "subcategory": [
+            "audit"
+          ],
+          "technology": [
+            "django"
+          ],
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cross-Site Request Forgery (CSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.django-no-csrf-token.django-no-csrf-token",
+          "shortlink": "https://sg.run/N0Bp"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "html.security.audit.missing-integrity.missing-integrity",
+      "path": "vulnerable_archive\\archiver\\templates\\base.html",
+      "start": {
+        "line": 7,
+        "col": 5,
+        "offset": 221
+      },
+      "end": {
+        "line": 7,
+        "col": 107,
+        "offset": 323
+      },
+      "extra": {
+        "message": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files.",
+        "metadata": {
+          "category": "security",
+          "technology": [
+            "html"
+          ],
+          "cwe": [
+            "CWE-353: Missing Support for Integrity Check"
+          ],
+          "owasp": [
+            "A08:2021 - Software and Data Integrity Failures",
+            "A08:2025 - Software or Data Integrity Failures"
+          ],
+          "confidence": "LOW",
+          "references": [
+            "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures"
+          ],
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "LOW",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/html.security.audit.missing-integrity.missing-integrity",
+          "shortlink": "https://sg.run/krXA"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "html.security.audit.missing-integrity.missing-integrity",
+      "path": "vulnerable_archive\\archiver\\templates\\base.html",
+      "start": {
+        "line": 73,
+        "col": 5,
+        "offset": 3276
+      },
+      "end": {
+        "line": 73,
+        "col": 105,
+        "offset": 3376
+      },
+      "extra": {
+        "message": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files.",
+        "metadata": {
+          "category": "security",
+          "technology": [
+            "html"
+          ],
+          "cwe": [
+            "CWE-353: Missing Support for Integrity Check"
+          ],
+          "owasp": [
+            "A08:2021 - Software and Data Integrity Failures",
+            "A08:2025 - Software or Data Integrity Failures"
+          ],
+          "confidence": "LOW",
+          "references": [
+            "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures"
+          ],
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "LOW",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/html.security.audit.missing-integrity.missing-integrity",
+          "shortlink": "https://sg.run/krXA"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.jwt.security.jwt-hardcode.jwt-python-hardcoded-secret",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 49,
+        "col": 13,
+        "offset": 1373
+      },
+      "end": {
+        "line": 49,
+        "col": 59,
+        "offset": 1419
+      },
+      "extra": {
+        "message": "Hardcoded JWT secret or private key is used. This is a Insufficiently Protected Credentials weakness: https://cwe.mitre.org/data/definitions/522.html Consider using an appropriate security mechanism to protect the credentials (e.g. keeping secrets in environment variables)",
+        "metadata": {
+          "cwe": [
+            "CWE-522: Insufficiently Protected Credentials"
+          ],
+          "owasp": [
+            "A02:2017 - Broken Authentication",
+            "A04:2021 - Insecure Design",
+            "A06:2025 - Insecure Design"
+          ],
+          "references": [
+            "https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/"
+          ],
+          "category": "security",
+          "technology": [
+            "jwt"
+          ],
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "HIGH",
+          "impact": "MEDIUM",
+          "confidence": "HIGH",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Cryptographic Issues"
+          ],
+          "source": "https://semgrep.dev/r/python.jwt.security.jwt-hardcode.jwt-python-hardcoded-secret",
+          "shortlink": "https://sg.run/l2E9"
+        },
+        "severity": "ERROR",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.ssrf.ssrf-injection-requests.ssrf-injection-requests",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 65,
+        "col": 9,
+        "offset": 1843
+      },
+      "end": {
+        "line": 92,
+        "col": 76,
+        "offset": 2895
+      },
+      "extra": {
+        "message": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request. See https://owasp.org/www-community/attacks/Server_Side_Request_Forgery to learn more about SSRF vulnerabilities.",
+        "metadata": {
+          "cwe": [
+            "CWE-918: Server-Side Request Forgery (SSRF)"
+          ],
+          "owasp": [
+            "A10:2021 - Server-Side Request Forgery (SSRF)",
+            "A01:2025 - Broken Access Control"
+          ],
+          "references": [
+            "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "HIGH",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Server-Side Request Forgery (SSRF)"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.ssrf.ssrf-injection-requests.ssrf-injection-requests",
+          "shortlink": "https://sg.run/YvY4"
+        },
+        "severity": "ERROR",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 130,
+        "col": 5,
+        "offset": 4005
+      },
+      "end": {
+        "line": 142,
+        "col": 60,
+        "offset": 4637
+      },
+      "extra": {
+        "message": "User-controlled data from a request is passed to 'execute()'. This could lead to a SQL injection and therefore protected information could be leaked. Instead, use django's QuerySets, which are built with query parameterization and therefore not vulnerable to sql injection. For example, you could use `Entry.objects.filter(date=2006)`.",
+        "metadata": {
+          "cwe": [
+            "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+          ],
+          "owasp": [
+            "A01:2017 - Injection",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "references": [
+            "https://docs.djangoproject.com/en/3.0/topics/security/#sql-injection-protection"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "vuln"
+          ],
+          "likelihood": "MEDIUM",
+          "impact": "HIGH",
+          "confidence": "MEDIUM",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "SQL Injection"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.sql.sql-injection-using-db-cursor-execute.sql-injection-db-cursor-execute",
+          "shortlink": "https://sg.run/qx7y"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.django.security.injection.tainted-sql-string.tainted-sql-string",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 134,
+        "col": 15,
+        "offset": 4088
+      },
+      "end": {
+        "line": 134,
+        "col": 221,
+        "offset": 4294
+      },
+      "extra": {
+        "message": "Detected user input used to manually construct a SQL string. This is usually bad practice because manual construction could accidentally result in a SQL injection. An attacker could use a SQL injection to steal or modify contents of the database. Instead, use a parameterized query which is available by default in most database engines. Alternatively, consider using the Django object-relational mappers (ORM) instead of raw SQL queries.",
+        "metadata": {
+          "cwe": [
+            "CWE-915: Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+          ],
+          "owasp": [
+            "A08:2021 - Software and Data Integrity Failures",
+            "A08:2025 - Software or Data Integrity Failures"
+          ],
+          "references": [
+            "https://docs.djangoproject.com/en/3.0/topics/security/#sql-injection-protection"
+          ],
+          "category": "security",
+          "technology": [
+            "django"
+          ],
+          "subcategory": [
+            "audit"
+          ],
+          "impact": "LOW",
+          "likelihood": "MEDIUM",
+          "confidence": "LOW",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "Mass Assignment"
+          ],
+          "source": "https://semgrep.dev/r/python.django.security.injection.tainted-sql-string.tainted-sql-string",
+          "shortlink": "https://sg.run/PbZp"
+        },
+        "severity": "ERROR",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 138,
+        "col": 17,
+        "offset": 4377
+      },
+      "end": {
+        "line": 138,
+        "col": 36,
+        "offset": 4396
+      },
+      "extra": {
+        "message": "Detected possible formatted SQL query. Use parameterized queries instead.",
+        "metadata": {
+          "owasp": [
+            "A01:2017 - Injection",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "cwe": [
+            "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+          ],
+          "references": [
+            "https://stackoverflow.com/questions/775296/mysql-parameterized-queries"
+          ],
+          "category": "security",
+          "technology": [
+            "python"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH",
+          "confidence": "LOW",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "SQL Injection"
+          ],
+          "source": "https://semgrep.dev/r/python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+          "shortlink": "https://sg.run/EkWw"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+      "path": "vulnerable_archive\\archiver\\views.py",
+      "start": {
+        "line": 138,
+        "col": 17,
+        "offset": 4377
+      },
+      "end": {
+        "line": 138,
+        "col": 36,
+        "offset": 4396
+      },
+      "extra": {
+        "message": "Avoiding SQL string concatenation: untrusted input concatenated with raw SQL query can result in SQL Injection. In order to execute raw query safely, prepared statement should be used. SQLAlchemy provides TextualSQL to easily used prepared statement with named parameters. For complex SQL composition, use SQL Expression Language or Schema Definition Language. In most cases, SQLAlchemy ORM will be a better option.",
+        "metadata": {
+          "cwe": [
+            "CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+          ],
+          "owasp": [
+            "A01:2017 - Injection",
+            "A03:2021 - Injection",
+            "A05:2025 - Injection"
+          ],
+          "references": [
+            "https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-textual-sql",
+            "https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_quick_guide.htm",
+            "https://docs.sqlalchemy.org/en/14/core/tutorial.html#using-more-specific-text-with-table-expression-literal-column-and-expression-column"
+          ],
+          "category": "security",
+          "technology": [
+            "sqlalchemy"
+          ],
+          "cwe2022-top25": true,
+          "cwe2021-top25": true,
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH",
+          "confidence": "LOW",
+          "license": "Semgrep Rules License v1.0. For more details, visit semgrep.dev/legal/rules-license",
+          "vulnerability_class": [
+            "SQL Injection"
+          ],
+          "source": "https://semgrep.dev/r/python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+          "shortlink": "https://sg.run/2b1L"
+        },
+        "severity": "ERROR",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "Dockerfile",
+            "start": {
+              "line": 4,
+              "col": 21,
+              "offset": 0
+            },
+            "end": {
+              "line": 7,
+              "col": 34,
+              "offset": 98
+            }
+          },
+          {
+            "path": "Dockerfile",
+            "start": {
+              "line": 14,
+              "col": 5,
+              "offset": 0
+            },
+            "end": {
+              "line": 35,
+              "col": 57,
+              "offset": 534
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line Dockerfile:4:\n `=1 \\\r\n    PYTHONDONTWRITEBYTECODE=1 \\\r\n    PIP_NO_CACHE_DIR=1 \\\r\n    PIP_DISABLE_PIP_VERSION_CHECK` was unexpected",
+      "path": "Dockerfile",
+      "spans": [
+        {
+          "file": "Dockerfile",
+          "start": {
+            "line": 4,
+            "col": 21,
+            "offset": 0
+          },
+          "end": {
+            "line": 7,
+            "col": 34,
+            "offset": 98
+          }
+        },
+        {
+          "file": "Dockerfile",
+          "start": {
+            "line": 14,
+            "col": 5,
+            "offset": 0
+          },
+          "end": {
+            "line": 35,
+            "col": 57,
+            "offset": 534
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 98
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+            "start": {
+              "line": 35,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 35,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Add New Archive{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 98
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+          "start": {
+            "line": 35,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 35,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 94
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+            "start": {
+              "line": 37,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 37,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}My Archives{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 94
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+          "start": {
+            "line": 37,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 37,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 92
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+            "start": {
+              "line": 39,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 39,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Dashboard{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 92
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+          "start": {
+            "line": 39,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 39,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 97
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+            "start": {
+              "line": 29,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 29,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Delete Archive{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 97
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+          "start": {
+            "line": 29,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 29,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 95
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+            "start": {
+              "line": 36,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 36,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Edit Archive{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 95
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+          "start": {
+            "line": 36,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 36,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 97
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+            "start": {
+              "line": 46,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 46,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Enrich Archive{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 97
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+          "start": {
+            "line": 46,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 46,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 91
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+            "start": {
+              "line": 25,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 25,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\register.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Register{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 91
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+          "start": {
+            "line": 25,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 25,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 98
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+            "start": {
+              "line": 41,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 41,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\search.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Search Archives{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 98
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+          "start": {
+            "line": 41,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 41,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 95
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+            "start": {
+              "line": 46,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 46,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}View Archive{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 95
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+          "start": {
+            "line": 46,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 46,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+            "start": {
+              "line": 1,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "col": 20,
+              "offset": 88
+            }
+          },
+          {
+            "path": "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+            "start": {
+              "line": 26,
+              "col": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 26,
+              "col": 15,
+              "offset": 14
+            }
+          }
+        ]
+      ],
+      "message": "Syntax error at line vulnerable_archive\\archiver\\templates\\registration\\login.html:1:\n `{% extends 'base.html' %}\r\n\r\n{% block title %}Login{% endblock %}\r\n\r\n{% block content %}` was unexpected",
+      "path": "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+      "spans": [
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+          "start": {
+            "line": 1,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 5,
+            "col": 20,
+            "offset": 88
+          }
+        },
+        {
+          "file": "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+          "start": {
+            "line": 26,
+            "col": 1,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 15,
+            "offset": 14
+          }
+        }
+      ]
+    }
+  ],
+  "paths": {
+    "scanned": [
+      ".gitignore",
+      "docker-compose.yml",
+      "Dockerfile",
+      "Module 10 - Capstone.pdf",
+      "pyproject.toml",
+      "README.md",
+      "uv.lock",
+      "vulnerable_archive\\.gitignore",
+      "vulnerable_archive\\.python-version",
+      "vulnerable_archive\\archiver\\__init__.py",
+      "vulnerable_archive\\archiver\\admin.py",
+      "vulnerable_archive\\archiver\\apps.py",
+      "vulnerable_archive\\archiver\\llm_utils.py",
+      "vulnerable_archive\\archiver\\management\\__init__.py",
+      "vulnerable_archive\\archiver\\management\\commands\\__init__.py",
+      "vulnerable_archive\\archiver\\management\\commands\\seed_data.py",
+      "vulnerable_archive\\archiver\\migrations\\0001_initial.py",
+      "vulnerable_archive\\archiver\\migrations\\__init__.py",
+      "vulnerable_archive\\archiver\\models.py",
+      "vulnerable_archive\\archiver\\templates\\archiver\\add_archive.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\archive_list.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\ask_database.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\dashboard.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\delete_archive.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\edit_archive.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\enrich_archive.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\export_summary.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\register.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\search.html",
+      "vulnerable_archive\\archiver\\templates\\archiver\\view_archive.html",
+      "vulnerable_archive\\archiver\\templates\\base.html",
+      "vulnerable_archive\\archiver\\templates\\registration\\login.html",
+      "vulnerable_archive\\archiver\\tests.py",
+      "vulnerable_archive\\archiver\\urls.py",
+      "vulnerable_archive\\archiver\\views.py",
+      "vulnerable_archive\\db.sqlite3",
+      "vulnerable_archive\\exported_summaries\\summaries.txt",
+      "vulnerable_archive\\manage.py",
+      "vulnerable_archive\\vulnerable_archive\\__init__.py",
+      "vulnerable_archive\\vulnerable_archive\\asgi.py",
+      "vulnerable_archive\\vulnerable_archive\\settings.py",
+      "vulnerable_archive\\vulnerable_archive\\urls.py",
+      "vulnerable_archive\\vulnerable_archive\\wsgi.py"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 1.5254583358764648,
+    "profiling_times": {
+      "config_time": 2.959097146987915,
+      "core_time": 3.495965003967285,
+      "ignores_time": 0.0014276504516601562,
+      "total_time": 6.472051620483398
+    },
+    "parsing_time": {
+      "total_time": 0,
+      "per_file_time": {
+        "mean": 0,
+        "std_dev": 0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0,
+        "count_ratio": 0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 2.3529152870178223,
+      "per_file_time": {
+        "mean": 0.01960762739181518,
+        "std_dev": 0.008352154495249097
+      },
+      "very_slow_stats": {
+        "time_ratio": 0,
+        "count_ratio": 0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0,
+      "per_file_and_rule_time": {
+        "mean": 0,
+        "std_dev": 0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0,
+        "count_ratio": 0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0,
+      "per_def_and_rule_time": {
+        "mean": 0,
+        "std_dev": 0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0,
+        "count_ratio": 0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0,
+      "file_level_time": 0,
+      "rules_with_project_prefilters_ratio": 0,
+      "rules_with_file_prefilters_ratio": 0.9855621992124836,
+      "rules_selected_ratio": 0.04375091147732244,
+      "rules_matched_ratio": 0.04375091147732244
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 1377520192
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": [],
+  "profiling_results": []
+}

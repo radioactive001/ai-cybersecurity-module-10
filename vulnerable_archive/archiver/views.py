@@ -10,6 +10,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.db import connection
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
+import bleach
+import re
 
 from .llm_utils import query_llm
 from .models import Archive
@@ -78,12 +80,14 @@ def add_archive(request):
                         )
                     except IndexError:
                         pass
+                allowed_html_tags = ['p', 'br', 'strong', 'em', 'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'a']
+                clean_html = bleach.clean(response.text, tags=allowed_html_tags, strip=True)
 
                 Archive.objects.create(
                     user=request.user,
                     url=url,
                     title=title,
-                    content=response.text,
+                    content=clean_html.text,
                     notes=notes,
                 )
                 messages.success(request, "URL archived successfully!")
@@ -131,25 +135,29 @@ def search_archives(request):
     results = []
 
     if query:
-        sql = f"SELECT archiver_archive.*, auth_user.username FROM archiver_archive JOIN auth_user ON archiver_archive.user_id = auth_user.id WHERE archiver_archive.user_id = {request.user.id} AND title LIKE '%{query}%'"
-
         try:
-            with connection.cursor() as cursor:
-                cursor.execute(sql)
-                columns = [col[0] for col in cursor.description]
-                results = [dict(zip(columns, row)) for row in cursor.fetchall()]
+            results = Archive.objects.filter(
+                user=request.user,
+                title__icontains=query
+            ).values(
+                'id', 'title', 'url', 'created_at',
+                'user__username'
+            )
         except Exception as e:
-            messages.error(request, f"SQL Error: {str(e)}")
+            messages.error(request, f"Search Error: {str(e)}")
 
     return render(request, "archiver/search.html", {"results": results, "query": query})
-
 
 @login_required
 def ask_database(request):
     answer = None
     sql_query = None
     user_input = request.POST.get("prompt", "")
-
+    safe_sql_pattern = re.compile(
+        r'^\s*SELECT\b',
+        re.IGNORECASE
+        )
+    allowed_columns = {'id', 'title', 'url', 'content', 'notes', 'created_at'}
     if request.method == "POST" and user_input:
         # Schema info for the LLM
         schema_info = """
@@ -175,12 +183,41 @@ def ask_database(request):
         elif "```" in sql_query:
             sql_query = sql_query.split("```")[1].strip()
 
+        if not safe_sql_pattern.match(sql_query):
+            answer = "Only SELECT queries are allowed."
+            return render(request, "archiver/ask_database.html",
+                          {"answer": answer, "sql_query": None, "prompt": user_input})
+        
+        user_id_pattern = re.compile(
+                rf'\buser_id\s*=\s*{re.escape(str(request.user.id))}\b',
+                re.IGNORECASE
+            )
+        
+        if not user_id_pattern.search(sql_query):
+            answer = "Query must be scoped to your own data."
+            return render(request, "archiver/ask_database.html",
+                          {"answer": answer, "sql_query": None, "prompt": user_input})
+
+        forbidden = re.compile(
+            r'\b(DROP|DELETE|INSERT|UPDATE|ALTER|ATTACH|DETACH|PRAGMA|CREATE)\b',
+            re.IGNORECASE
+        )
+        if forbidden.search(sql_query):
+            answer = "Query contains disallowed operations."
+            return render(request, "archiver/ask_database.html",
+                          {"answer": answer, "sql_query": None, "prompt": user_input})
+        
+
         try:
             with connection.cursor() as cursor:
                 cursor.execute(sql_query)
                 if cursor.description:
                     columns = [col[0] for col in cursor.description]
-                    results = [dict(zip(columns, row)) for row in cursor.fetchall()]
+                    results = []
+                    for row in cursor.fetchall():
+                        row_dict = dict(zip(columns, row))
+                        results.append({k: v for k, v in row_dict.items()
+                                        if k in allowed_columns})
                     answer = results
                 else:
                     answer = "Query executed successfully (no results returned)."
@@ -242,6 +279,7 @@ def export_summary(request):
 @login_required
 def enrich_archive(request, archive_id):
     archive = get_object_or_404(Archive, pk=archive_id)
+    plain_text = bleach.clean(archive.html_content, tags=[], strip=True)[:10000]
     llm_response = None
 
     if request.method == "POST":
@@ -258,10 +296,10 @@ def enrich_archive(request, archive_id):
         User Instruction: {user_instruction}
 
         Archive Content:
-        {archive.content}
+        {plain_text.content}
 
         Archive Notes:
-        {archive.notes}
+        {plain_text.notes}
         """
 
         tools = [
@@ -306,5 +344,5 @@ def enrich_archive(request, archive_id):
     return render(
         request,
         "archiver/enrich_archive.html",
-        {"archive": archive, "llm_response": llm_response},
+        {"archive": plain_text, "llm_response": llm_response},
     )

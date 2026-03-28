@@ -1,0 +1,3718 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "D:/Programming/TechNL/ai-cybersecurity-module-10/uv.lock",
+        "type": "lockfile"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "django",
+            "version": "6.0.1",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-2mcm-79hx-8fxw"
+              ],
+              "aliases": [
+                "BIT-django-2025-13473",
+                "CVE-2025-13473",
+                "GHSA-2mcm-79hx-8fxw"
+              ],
+              "max_severity": "2.7"
+            },
+            {
+              "ids": [
+                "GHSA-33mw-q7rj-mjwj"
+              ],
+              "aliases": [
+                "BIT-django-2025-14550",
+                "CVE-2025-14550",
+                "GHSA-33mw-q7rj-mjwj"
+              ],
+              "max_severity": "2.7"
+            },
+            {
+              "ids": [
+                "GHSA-4rrr-2h4v-f3j9"
+              ],
+              "aliases": [
+                "BIT-django-2026-1285",
+                "CVE-2026-1285",
+                "GHSA-4rrr-2h4v-f3j9"
+              ],
+              "max_severity": "2.7"
+            },
+            {
+              "ids": [
+                "GHSA-6426-9fv3-65x8"
+              ],
+              "aliases": [
+                "BIT-django-2026-1312",
+                "CVE-2026-1312",
+                "GHSA-6426-9fv3-65x8"
+              ],
+              "max_severity": "5.4"
+            },
+            {
+              "ids": [
+                "GHSA-8p8v-wh79-9r56"
+              ],
+              "aliases": [
+                "BIT-django-2026-25673",
+                "CVE-2026-25673",
+                "GHSA-8p8v-wh79-9r56"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-gvg8-93h5-g6qq"
+              ],
+              "aliases": [
+                "BIT-django-2026-1287",
+                "CVE-2026-1287",
+                "GHSA-gvg8-93h5-g6qq"
+              ],
+              "max_severity": "8.1"
+            },
+            {
+              "ids": [
+                "GHSA-mjgh-79qc-68w3"
+              ],
+              "aliases": [
+                "BIT-django-2026-25674",
+                "CVE-2026-25674",
+                "GHSA-mjgh-79qc-68w3"
+              ],
+              "max_severity": "3.7"
+            },
+            {
+              "ids": [
+                "GHSA-mwm9-4648-f68q"
+              ],
+              "aliases": [
+                "BIT-django-2026-1207",
+                "CVE-2026-1207",
+                "GHSA-mwm9-4648-f68q"
+              ],
+              "max_severity": "8.1"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-2mcm-79hx-8fxw/GHSA-2mcm-79hx-8fxw.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-2mcm-79hx-8fxw/GHSA-2mcm-79hx-8fxw.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-2mcm-79hx-8fxw/GHSA-2mcm-79hx-8fxw.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2025-13473",
+                "CVE-2025-13473"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-208"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:22:54Z",
+                "nvd_published_at": "2026-02-03T15:16:11Z",
+                "severity": "LOW"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\nThe `django.contrib.auth.handlers.modwsgi.check_password()` function for authentication via `mod_wsgi` allows remote attackers to enumerate users via a timing attack. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Stackered for reporting this issue.",
+              "id": "GHSA-2mcm-79hx-8fxw",
+              "modified": "2026-02-05T10:25:58.010797Z",
+              "published": "2026-02-03T15:30:23Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13473"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-5wcc-7wx7-j93f"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Django has Observable Timing Discrepancy"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-33mw-q7rj-mjwj/GHSA-33mw-q7rj-mjwj.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-33mw-q7rj-mjwj/GHSA-33mw-q7rj-mjwj.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-33mw-q7rj-mjwj/GHSA-33mw-q7rj-mjwj.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2025-14550",
+                "CVE-2025-14550"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-407"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:29:47Z",
+                "nvd_published_at": "2026-02-03T15:16:11Z",
+                "severity": "LOW"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\n`ASGIRequest` allows a remote attacker to cause a potential denial-of-service via a crafted request with multiple duplicate headers.\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Jiyong Yang for reporting this issue.",
+              "id": "GHSA-33mw-q7rj-mjwj",
+              "modified": "2026-02-22T23:41:06.153879Z",
+              "published": "2026-02-03T15:30:23Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14550"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/eb22e1d6d643360e952609ef562c139a100ea4eb"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-jj39-8jvf-389j"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Django has Inefficient Algorithmic Complexity"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-4rrr-2h4v-f3j9/GHSA-4rrr-2h4v-f3j9.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-4rrr-2h4v-f3j9/GHSA-4rrr-2h4v-f3j9.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-4rrr-2h4v-f3j9/GHSA-4rrr-2h4v-f3j9.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-1285",
+                "CVE-2026-1285"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-407"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:31:15Z",
+                "nvd_published_at": "2026-02-03T15:16:13Z",
+                "severity": "LOW"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\n`django.utils.text.Truncator.chars()` and `Truncator.words()` methods (with `html=True`) and the `truncatechars_html` and `truncatewords_html` template filters allow a remote attacker to cause a potential denial-of-service via crafted inputs containing a large number of unmatched HTML end tags. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Seokchan Yoon for reporting this issue.",
+              "id": "GHSA-4rrr-2h4v-f3j9",
+              "modified": "2026-02-22T23:26:02.134436Z",
+              "published": "2026-02-03T15:30:23Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1285"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/a33540b3e20b5d759aa8b2e4b9ca0e8edd285344"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-2wxm-m3q3-v24c"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Django has Inefficient Algorithmic Complexity"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-6426-9fv3-65x8/GHSA-6426-9fv3-65x8.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-6426-9fv3-65x8/GHSA-6426-9fv3-65x8.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-6426-9fv3-65x8/GHSA-6426-9fv3-65x8.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-1312",
+                "CVE-2026-1312"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-89"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:35:56Z",
+                "nvd_published_at": "2026-02-03T15:16:13Z",
+                "severity": "MODERATE"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\n`.QuerySet.order_by()` is subject to SQL injection in column aliases containing periods when the same alias is, using a suitably crafted dictionary, with dictionary expansion, used in `FilteredRelation`. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Solomon Kebede for reporting this issue.",
+              "id": "GHSA-6426-9fv3-65x8",
+              "modified": "2026-02-13T20:05:05.374135Z",
+              "published": "2026-02-03T15:30:24Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1312"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/005d60d97c4dfb117503bdb6f2facfcaf9315d84"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/69065ca869b0970dff8fdd8fafb390bf8b3bf222"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-rp2j-r5m6-5p6g"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Django has an SQL Injection issue"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-8p8v-wh79-9r56/GHSA-8p8v-wh79-9r56.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0"
+                        },
+                        {
+                          "fixed": "6.0.3"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0.2"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-8p8v-wh79-9r56/GHSA-8p8v-wh79-9r56.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2"
+                        },
+                        {
+                          "fixed": "5.2.12"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.11",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-8p8v-wh79-9r56/GHSA-8p8v-wh79-9r56.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2"
+                        },
+                        {
+                          "fixed": "4.2.29"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.28",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-25673",
+                "CVE-2026-25673"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-770"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-04T20:24:02Z",
+                "nvd_published_at": "2026-03-03T15:16:19Z",
+                "severity": "HIGH"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.3, 5.2 before 5.2.12, and 4.2 before 4.2.29.\n\n`URLField.to_python()` in Django calls `urllib.parse.urlsplit()`, which performs NFKC normalization on Windows that is disproportionately slow for certain Unicode characters, allowing a remote attacker to cause denial of service via large URL inputs containing these characters.\n\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\nDjango would like to thank Seokchan Yoon for reporting this issue.",
+              "id": "GHSA-8p8v-wh79-9r56",
+              "modified": "2026-03-06T19:44:13.458245Z",
+              "published": "2026-03-03T15:31:41Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25673"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/mar/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-33hw-j537-cx47"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Django vulnerable to Uncontrolled Resource Consumption"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-gvg8-93h5-g6qq/GHSA-gvg8-93h5-g6qq.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-gvg8-93h5-g6qq/GHSA-gvg8-93h5-g6qq.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-gvg8-93h5-g6qq/GHSA-gvg8-93h5-g6qq.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-1287",
+                "CVE-2026-1287"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-89"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:34:22Z",
+                "nvd_published_at": "2026-02-03T15:16:13Z",
+                "severity": "HIGH"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\n`FilteredRelation` is subject to SQL injection in column aliases via control characters, using a suitably crafted dictionary, with dictionary expansion, as the `**kwargs` passed to `QuerySet` methods `annotate()`, `aggregate()`, `extra()`, `values()`, `values_list()`, and `alias()`. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Solomon Kebede for reporting this issue.",
+              "id": "GHSA-gvg8-93h5-g6qq",
+              "modified": "2026-02-05T10:26:14.221736Z",
+              "published": "2026-02-03T15:30:24Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1287"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/e891a84c7ef9962bfcc3b4685690219542f86a22"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-5c9q-6m5j-82rh"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Django has an SQL Injection issue"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-mjgh-79qc-68w3/GHSA-mjgh-79qc-68w3.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0"
+                        },
+                        {
+                          "fixed": "6.0.3"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0.2"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-mjgh-79qc-68w3/GHSA-mjgh-79qc-68w3.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2"
+                        },
+                        {
+                          "fixed": "5.2.12"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.11",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-mjgh-79qc-68w3/GHSA-mjgh-79qc-68w3.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2"
+                        },
+                        {
+                          "fixed": "4.2.29"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.28",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-25674",
+                "CVE-2026-25674"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-362"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-04T20:24:29Z",
+                "nvd_published_at": "2026-03-03T15:16:19Z",
+                "severity": "LOW"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.3, 5.2 before 5.2.12, and 4.2 before 4.2.29.\n\nRace condition in file-system storage and file-based cache backends in Django allows an attacker to cause file system objects to be created with incorrect permissions via concurrent requests, where one thread's temporary `umask` change affects other threads in multi-threaded environments.\n\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\nDjango would like to thank Tarek Nakkouch for reporting this issue.",
+              "id": "GHSA-mjgh-79qc-68w3",
+              "modified": "2026-03-06T19:44:14.996605Z",
+              "published": "2026-03-03T15:31:41Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25674"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/mar/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-j9p3-qxmp-vfgp"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Django has a Race Condition vulnerability"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-mwm9-4648-f68q/GHSA-mwm9-4648-f68q.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.0a1"
+                        },
+                        {
+                          "fixed": "6.0.2"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "6.0",
+                    "6.0.1",
+                    "6.0a1",
+                    "6.0b1",
+                    "6.0rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-mwm9-4648-f68q/GHSA-mwm9-4648-f68q.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.2a1"
+                        },
+                        {
+                          "fixed": "5.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.2",
+                    "5.2.1",
+                    "5.2.10",
+                    "5.2.2",
+                    "5.2.3",
+                    "5.2.4",
+                    "5.2.5",
+                    "5.2.6",
+                    "5.2.7",
+                    "5.2.8",
+                    "5.2.9",
+                    "5.2a1",
+                    "5.2b1",
+                    "5.2rc1"
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-mwm9-4648-f68q/GHSA-mwm9-4648-f68q.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "django",
+                    "purl": "pkg:pypi/django"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.2a1"
+                        },
+                        {
+                          "fixed": "4.2.28"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "4.2",
+                    "4.2.1",
+                    "4.2.10",
+                    "4.2.11",
+                    "4.2.12",
+                    "4.2.13",
+                    "4.2.14",
+                    "4.2.15",
+                    "4.2.16",
+                    "4.2.17",
+                    "4.2.18",
+                    "4.2.19",
+                    "4.2.2",
+                    "4.2.20",
+                    "4.2.21",
+                    "4.2.22",
+                    "4.2.23",
+                    "4.2.24",
+                    "4.2.25",
+                    "4.2.26",
+                    "4.2.27",
+                    "4.2.3",
+                    "4.2.4",
+                    "4.2.5",
+                    "4.2.6",
+                    "4.2.7",
+                    "4.2.8",
+                    "4.2.9",
+                    "4.2a1",
+                    "4.2b1",
+                    "4.2rc1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "BIT-django-2026-1207",
+                "CVE-2026-1207"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-89"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-03T19:32:56Z",
+                "nvd_published_at": "2026-02-03T15:16:13Z",
+                "severity": "HIGH"
+              },
+              "details": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\nRaster lookups on ``RasterField`` (only implemented on PostGIS) allows remote attackers to inject SQL via the band index parameter. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Tarek Nakkouch for reporting this issue.",
+              "id": "GHSA-mwm9-4648-f68q",
+              "modified": "2026-02-05T10:26:06.774055Z",
+              "published": "2026-02-03T15:30:23Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1207"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/django/django/commit/81aa5292967cd09319c45fe2c1a525ce7b6684d8"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://docs.djangoproject.com/en/dev/releases/security"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/django/django"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/django-announce"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.djangoproject.com/weblog/2026/feb/03/security-releases"
+                }
+              ],
+              "related": [
+                "CGA-5q4r-x59p-qcwc"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Django has an SQL Injection issue"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "langchain-core",
+            "version": "1.2.7",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-2g6r-c272-w58r"
+              ],
+              "aliases": [
+                "CVE-2026-26013",
+                "GHSA-2g6r-c272-w58r"
+              ],
+              "max_severity": "3.7"
+            },
+            {
+              "ids": [
+                "GHSA-qh6h-p6c9-ff54"
+              ],
+              "aliases": [
+                "CVE-2026-34070",
+                "GHSA-qh6h-p6c9-ff54"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/02/GHSA-2g6r-c272-w58r/GHSA-2g6r-c272-w58r.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "langchain-core",
+                    "purl": "pkg:pypi/langchain-core"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.2.11"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "0.0.1",
+                    "0.0.10",
+                    "0.0.11",
+                    "0.0.12",
+                    "0.0.13",
+                    "0.0.13rc1",
+                    "0.0.13rc2",
+                    "0.0.2",
+                    "0.0.3",
+                    "0.0.4",
+                    "0.0.5",
+                    "0.0.6",
+                    "0.0.7",
+                    "0.0.8",
+                    "0.0.9",
+                    "0.1.0",
+                    "0.1.1",
+                    "0.1.10",
+                    "0.1.11",
+                    "0.1.12",
+                    "0.1.12rc1",
+                    "0.1.13",
+                    "0.1.14",
+                    "0.1.15",
+                    "0.1.15rc1",
+                    "0.1.15rc2",
+                    "0.1.16",
+                    "0.1.17",
+                    "0.1.18",
+                    "0.1.19",
+                    "0.1.2",
+                    "0.1.20",
+                    "0.1.21",
+                    "0.1.22",
+                    "0.1.23",
+                    "0.1.24",
+                    "0.1.25",
+                    "0.1.26",
+                    "0.1.27",
+                    "0.1.28",
+                    "0.1.29",
+                    "0.1.3",
+                    "0.1.30",
+                    "0.1.31",
+                    "0.1.32",
+                    "0.1.33",
+                    "0.1.33rc1",
+                    "0.1.34",
+                    "0.1.35",
+                    "0.1.36",
+                    "0.1.37",
+                    "0.1.38",
+                    "0.1.39",
+                    "0.1.4",
+                    "0.1.40",
+                    "0.1.41",
+                    "0.1.42",
+                    "0.1.42rc1",
+                    "0.1.43",
+                    "0.1.44",
+                    "0.1.45",
+                    "0.1.46",
+                    "0.1.47",
+                    "0.1.47rc1",
+                    "0.1.48",
+                    "0.1.49",
+                    "0.1.5",
+                    "0.1.50",
+                    "0.1.51",
+                    "0.1.52",
+                    "0.1.53",
+                    "0.1.6",
+                    "0.1.7",
+                    "0.1.8",
+                    "0.1.9",
+                    "0.2.0",
+                    "0.2.0rc1",
+                    "0.2.1",
+                    "0.2.10",
+                    "0.2.11",
+                    "0.2.12",
+                    "0.2.13",
+                    "0.2.15",
+                    "0.2.16",
+                    "0.2.17",
+                    "0.2.18",
+                    "0.2.19",
+                    "0.2.2",
+                    "0.2.20",
+                    "0.2.21",
+                    "0.2.22",
+                    "0.2.23",
+                    "0.2.24",
+                    "0.2.25",
+                    "0.2.26",
+                    "0.2.27",
+                    "0.2.28",
+                    "0.2.29",
+                    "0.2.29rc1",
+                    "0.2.2rc1",
+                    "0.2.3",
+                    "0.2.30",
+                    "0.2.31",
+                    "0.2.32",
+                    "0.2.33",
+                    "0.2.34",
+                    "0.2.35",
+                    "0.2.36",
+                    "0.2.37",
+                    "0.2.38",
+                    "0.2.39",
+                    "0.2.4",
+                    "0.2.40",
+                    "0.2.41",
+                    "0.2.42",
+                    "0.2.43",
+                    "0.2.5",
+                    "0.2.6",
+                    "0.2.7",
+                    "0.2.8",
+                    "0.2.9",
+                    "0.3.0",
+                    "0.3.0.dev0",
+                    "0.3.0.dev1",
+                    "0.3.0.dev2",
+                    "0.3.0.dev3",
+                    "0.3.0.dev4",
+                    "0.3.0.dev5",
+                    "0.3.1",
+                    "0.3.10",
+                    "0.3.11",
+                    "0.3.12",
+                    "0.3.13",
+                    "0.3.14",
+                    "0.3.15",
+                    "0.3.16",
+                    "0.3.17",
+                    "0.3.18",
+                    "0.3.19",
+                    "0.3.2",
+                    "0.3.20",
+                    "0.3.21",
+                    "0.3.22",
+                    "0.3.23",
+                    "0.3.24",
+                    "0.3.25",
+                    "0.3.26",
+                    "0.3.27",
+                    "0.3.28",
+                    "0.3.29",
+                    "0.3.3",
+                    "0.3.30",
+                    "0.3.31",
+                    "0.3.32",
+                    "0.3.33",
+                    "0.3.34",
+                    "0.3.34rc1",
+                    "0.3.34rc2",
+                    "0.3.35",
+                    "0.3.36",
+                    "0.3.37",
+                    "0.3.38",
+                    "0.3.39",
+                    "0.3.4",
+                    "0.3.40",
+                    "0.3.41",
+                    "0.3.42",
+                    "0.3.43",
+                    "0.3.44",
+                    "0.3.45",
+                    "0.3.45rc1",
+                    "0.3.46",
+                    "0.3.47",
+                    "0.3.48",
+                    "0.3.49",
+                    "0.3.5",
+                    "0.3.50",
+                    "0.3.51",
+                    "0.3.52",
+                    "0.3.53",
+                    "0.3.54",
+                    "0.3.55",
+                    "0.3.56",
+                    "0.3.56rc1",
+                    "0.3.57",
+                    "0.3.58",
+                    "0.3.59",
+                    "0.3.6",
+                    "0.3.60",
+                    "0.3.61",
+                    "0.3.62",
+                    "0.3.63",
+                    "0.3.64",
+                    "0.3.65",
+                    "0.3.66",
+                    "0.3.67",
+                    "0.3.68",
+                    "0.3.69",
+                    "0.3.7",
+                    "0.3.70",
+                    "0.3.71",
+                    "0.3.72",
+                    "0.3.73",
+                    "0.3.74",
+                    "0.3.75",
+                    "0.3.76",
+                    "0.3.77",
+                    "0.3.78",
+                    "0.3.79",
+                    "0.3.8",
+                    "0.3.80",
+                    "0.3.81",
+                    "0.3.82",
+                    "0.3.83",
+                    "0.3.9",
+                    "0.4.0.dev0",
+                    "1.0.0",
+                    "1.0.0a1",
+                    "1.0.0a2",
+                    "1.0.0a3",
+                    "1.0.0a4",
+                    "1.0.0a5",
+                    "1.0.0a6",
+                    "1.0.0a7",
+                    "1.0.0a8",
+                    "1.0.0rc1",
+                    "1.0.0rc2",
+                    "1.0.0rc3",
+                    "1.0.1",
+                    "1.0.2",
+                    "1.0.3",
+                    "1.0.4",
+                    "1.0.5",
+                    "1.0.6",
+                    "1.0.7",
+                    "1.1.0",
+                    "1.1.1",
+                    "1.1.2",
+                    "1.1.3",
+                    "1.2.0",
+                    "1.2.1",
+                    "1.2.10",
+                    "1.2.2",
+                    "1.2.3",
+                    "1.2.4",
+                    "1.2.5",
+                    "1.2.6",
+                    "1.2.7",
+                    "1.2.8",
+                    "1.2.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-26013"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-918"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-02-11T14:23:13Z",
+                "nvd_published_at": "2026-02-10T22:17:00Z",
+                "severity": "LOW"
+              },
+              "details": "## Server-Side Request Forgery (SSRF) in ChatOpenAI Image Token Counting\n\n### Summary\nThe `ChatOpenAI.get_num_tokens_from_messages()` method fetches arbitrary `image_url` values without validation when computing token counts for vision-enabled models. This allows attackers to trigger Server-Side Request Forgery (SSRF) attacks by providing malicious image URLs in user input.\n\n### Severity\n**Low** - The vulnerability allows SSRF attacks but has limited impact due to:\n- Responses are not returned to the attacker (blind SSRF)\n- Default 5-second timeout limits resource exhaustion\n- Non-image responses fail at PIL image parsing\n\n### Impact\nAn attacker who can control image URLs passed to `get_num_tokens_from_messages()` can:\n- Trigger HTTP requests from the application server to arbitrary internal or external URLs\n- Cause the server to access internal network resources (private IPs, cloud metadata endpoints)\n- Cause minor resource consumption through image downloads (bounded by timeout)\n\n**Note:** This vulnerability occurs during token counting, which may happen outside of model invocation (e.g., in logging, metrics, or token budgeting flows).\n\n### Details\nThe vulnerable code path:\n1. `get_num_tokens_from_messages()` processes messages containing `image_url` content blocks\n2. For images without `detail: \"low\"`, it calls `_url_to_size()` to fetch the image and compute token counts\n3. `_url_to_size()` performs `httpx.get(image_source)` on any URL without validation\n4. Prior to the patch, there was no SSRF protection, size limits, or explicit timeout\n\n**File:** `libs/partners/openai/langchain_openai/chat_models/base.py`\n\n### Patches\nThe vulnerability has been patched in `langchain-openai==1.1.9` (requires `langchain-core==1.2.11`).\n\nThe patch adds:\n1. **SSRF validation** using `langchain_core._security._ssrf_protection.validate_safe_url()` to block:\n   - Private IP ranges (RFC 1918, loopback, link-local)\n   - Cloud metadata endpoints (169.254.169.254, etc.)\n   - Invalid URL schemes\n2. **Explicit size limits** (50 MB maximum, matching OpenAI's payload limit)\n3. **Explicit timeout** (5 seconds, same as `httpx.get` default)\n4. **Allow disabling image fetching** via `allow_fetching_images=False` parameter\n\n### Workarounds\nIf you cannot upgrade immediately:\n\n1. **Sanitize input:** Validate and filter `image_url` values before passing messages to token counting or model invocation\n2. **Use network controls:** Implement egress filtering to prevent outbound requests to private IPs",
+              "id": "GHSA-2g6r-c272-w58r",
+              "modified": "2026-02-11T14:44:37.030028Z",
+              "published": "2026-02-11T14:23:13Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/security/advisories/GHSA-2g6r-c272-w58r"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26013"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/commit/2b4b1dc29a833d4053deba4c2b77a3848c834565"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/langchain-ai/langchain"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.11"
+                }
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "LangChain affected by SSRF via image_url token counting in ChatOpenAI.get_num_tokens_from_messages"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-qh6h-p6c9-ff54/GHSA-qh6h-p6c9-ff54.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "langchain-core",
+                    "purl": "pkg:pypi/langchain-core"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.2.22"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "0.0.1",
+                    "0.0.10",
+                    "0.0.11",
+                    "0.0.12",
+                    "0.0.13",
+                    "0.0.13rc1",
+                    "0.0.13rc2",
+                    "0.0.2",
+                    "0.0.3",
+                    "0.0.4",
+                    "0.0.5",
+                    "0.0.6",
+                    "0.0.7",
+                    "0.0.8",
+                    "0.0.9",
+                    "0.1.0",
+                    "0.1.1",
+                    "0.1.10",
+                    "0.1.11",
+                    "0.1.12",
+                    "0.1.12rc1",
+                    "0.1.13",
+                    "0.1.14",
+                    "0.1.15",
+                    "0.1.15rc1",
+                    "0.1.15rc2",
+                    "0.1.16",
+                    "0.1.17",
+                    "0.1.18",
+                    "0.1.19",
+                    "0.1.2",
+                    "0.1.20",
+                    "0.1.21",
+                    "0.1.22",
+                    "0.1.23",
+                    "0.1.24",
+                    "0.1.25",
+                    "0.1.26",
+                    "0.1.27",
+                    "0.1.28",
+                    "0.1.29",
+                    "0.1.3",
+                    "0.1.30",
+                    "0.1.31",
+                    "0.1.32",
+                    "0.1.33",
+                    "0.1.33rc1",
+                    "0.1.34",
+                    "0.1.35",
+                    "0.1.36",
+                    "0.1.37",
+                    "0.1.38",
+                    "0.1.39",
+                    "0.1.4",
+                    "0.1.40",
+                    "0.1.41",
+                    "0.1.42",
+                    "0.1.42rc1",
+                    "0.1.43",
+                    "0.1.44",
+                    "0.1.45",
+                    "0.1.46",
+                    "0.1.47",
+                    "0.1.47rc1",
+                    "0.1.48",
+                    "0.1.49",
+                    "0.1.5",
+                    "0.1.50",
+                    "0.1.51",
+                    "0.1.52",
+                    "0.1.53",
+                    "0.1.6",
+                    "0.1.7",
+                    "0.1.8",
+                    "0.1.9",
+                    "0.2.0",
+                    "0.2.0rc1",
+                    "0.2.1",
+                    "0.2.10",
+                    "0.2.11",
+                    "0.2.12",
+                    "0.2.13",
+                    "0.2.15",
+                    "0.2.16",
+                    "0.2.17",
+                    "0.2.18",
+                    "0.2.19",
+                    "0.2.2",
+                    "0.2.20",
+                    "0.2.21",
+                    "0.2.22",
+                    "0.2.23",
+                    "0.2.24",
+                    "0.2.25",
+                    "0.2.26",
+                    "0.2.27",
+                    "0.2.28",
+                    "0.2.29",
+                    "0.2.29rc1",
+                    "0.2.2rc1",
+                    "0.2.3",
+                    "0.2.30",
+                    "0.2.31",
+                    "0.2.32",
+                    "0.2.33",
+                    "0.2.34",
+                    "0.2.35",
+                    "0.2.36",
+                    "0.2.37",
+                    "0.2.38",
+                    "0.2.39",
+                    "0.2.4",
+                    "0.2.40",
+                    "0.2.41",
+                    "0.2.42",
+                    "0.2.43",
+                    "0.2.5",
+                    "0.2.6",
+                    "0.2.7",
+                    "0.2.8",
+                    "0.2.9",
+                    "0.3.0",
+                    "0.3.0.dev0",
+                    "0.3.0.dev1",
+                    "0.3.0.dev2",
+                    "0.3.0.dev3",
+                    "0.3.0.dev4",
+                    "0.3.0.dev5",
+                    "0.3.1",
+                    "0.3.10",
+                    "0.3.11",
+                    "0.3.12",
+                    "0.3.13",
+                    "0.3.14",
+                    "0.3.15",
+                    "0.3.16",
+                    "0.3.17",
+                    "0.3.18",
+                    "0.3.19",
+                    "0.3.2",
+                    "0.3.20",
+                    "0.3.21",
+                    "0.3.22",
+                    "0.3.23",
+                    "0.3.24",
+                    "0.3.25",
+                    "0.3.26",
+                    "0.3.27",
+                    "0.3.28",
+                    "0.3.29",
+                    "0.3.3",
+                    "0.3.30",
+                    "0.3.31",
+                    "0.3.32",
+                    "0.3.33",
+                    "0.3.34",
+                    "0.3.34rc1",
+                    "0.3.34rc2",
+                    "0.3.35",
+                    "0.3.36",
+                    "0.3.37",
+                    "0.3.38",
+                    "0.3.39",
+                    "0.3.4",
+                    "0.3.40",
+                    "0.3.41",
+                    "0.3.42",
+                    "0.3.43",
+                    "0.3.44",
+                    "0.3.45",
+                    "0.3.45rc1",
+                    "0.3.46",
+                    "0.3.47",
+                    "0.3.48",
+                    "0.3.49",
+                    "0.3.5",
+                    "0.3.50",
+                    "0.3.51",
+                    "0.3.52",
+                    "0.3.53",
+                    "0.3.54",
+                    "0.3.55",
+                    "0.3.56",
+                    "0.3.56rc1",
+                    "0.3.57",
+                    "0.3.58",
+                    "0.3.59",
+                    "0.3.6",
+                    "0.3.60",
+                    "0.3.61",
+                    "0.3.62",
+                    "0.3.63",
+                    "0.3.64",
+                    "0.3.65",
+                    "0.3.66",
+                    "0.3.67",
+                    "0.3.68",
+                    "0.3.69",
+                    "0.3.7",
+                    "0.3.70",
+                    "0.3.71",
+                    "0.3.72",
+                    "0.3.73",
+                    "0.3.74",
+                    "0.3.75",
+                    "0.3.76",
+                    "0.3.77",
+                    "0.3.78",
+                    "0.3.79",
+                    "0.3.8",
+                    "0.3.80",
+                    "0.3.81",
+                    "0.3.82",
+                    "0.3.83",
+                    "0.3.9",
+                    "0.4.0.dev0",
+                    "1.0.0",
+                    "1.0.0a1",
+                    "1.0.0a2",
+                    "1.0.0a3",
+                    "1.0.0a4",
+                    "1.0.0a5",
+                    "1.0.0a6",
+                    "1.0.0a7",
+                    "1.0.0a8",
+                    "1.0.0rc1",
+                    "1.0.0rc2",
+                    "1.0.0rc3",
+                    "1.0.1",
+                    "1.0.2",
+                    "1.0.3",
+                    "1.0.4",
+                    "1.0.5",
+                    "1.0.6",
+                    "1.0.7",
+                    "1.1.0",
+                    "1.1.1",
+                    "1.1.2",
+                    "1.1.3",
+                    "1.2.0",
+                    "1.2.1",
+                    "1.2.10",
+                    "1.2.11",
+                    "1.2.12",
+                    "1.2.13",
+                    "1.2.14",
+                    "1.2.15",
+                    "1.2.16",
+                    "1.2.17",
+                    "1.2.18",
+                    "1.2.19",
+                    "1.2.2",
+                    "1.2.20",
+                    "1.2.21",
+                    "1.2.3",
+                    "1.2.4",
+                    "1.2.5",
+                    "1.2.6",
+                    "1.2.7",
+                    "1.2.8",
+                    "1.2.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-34070"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-22"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-27T19:45:00Z",
+                "nvd_published_at": null,
+                "severity": "HIGH"
+              },
+              "details": "## Summary\n\nMultiple functions in `langchain_core.prompts.loading` read files from paths embedded in deserialized config dicts without validating against directory traversal or absolute path injection. When an application passes user-influenced prompt configurations to `load_prompt()` or `load_prompt_from_config()`, an attacker can read arbitrary files on the host filesystem, constrained only by file-extension checks (`.txt` for templates, `.json`/`.yaml` for examples).\n\n**Note:** The affected functions (`load_prompt`, `load_prompt_from_config`, and the `.save()` method on prompt classes) are undocumented legacy APIs. They are superseded by the `dumpd`/`dumps`/`load`/`loads` serialization APIs in `langchain_core.load`, which do not perform filesystem reads and use an allowlist-based security model. As part of this fix, the legacy APIs have been formally deprecated and will be removed in 2.0.0.\n\n## Affected component\n\n**Package:** `langchain-core`\n**File:** `langchain_core/prompts/loading.py`\n**Affected functions:** `_load_template()`, `_load_examples()`, `_load_few_shot_prompt()`\n\n## Severity\n\n**High** \n\nThe score reflects the file-extension constraints that limit which files can be read.\n\n## Vulnerable code paths\n\n| Config key | Loaded by | Readable extensions |\n|---|---|---|\n| `template_path`, `suffix_path`, `prefix_path` | `_load_template()` | `.txt` |\n| `examples` (when string) | `_load_examples()` | `.json`, `.yaml`, `.yml` |\n| `example_prompt_path` | `_load_few_shot_prompt()` | `.json`, `.yaml`, `.yml` |\n\nNone of these code paths validated the supplied path against absolute path injection or `..` traversal sequences before reading from disk.\n\n## Impact\n\nAn attacker who controls or influences the prompt configuration dict can read files outside the intended directory:\n\n- **`.txt` files:** cloud-mounted secrets (`/mnt/secrets/api_key.txt`), `requirements.txt`, internal system prompts\n- **`.json`/`.yaml` files:** cloud credentials (`~/.docker/config.json`, `~/.azure/accessTokens.json`), Kubernetes manifests, CI/CD configs, application settings\n\nThis is exploitable in applications that accept prompt configs from untrusted sources, including low-code AI builders and API wrappers that expose `load_prompt_from_config()`.\n\n## Proof of concept\n\n```python\nfrom langchain_core.prompts.loading import load_prompt_from_config\n\n# Reads /tmp/secret.txt via absolute path injection\nconfig = {\n    \"_type\": \"prompt\",\n    \"template_path\": \"/tmp/secret.txt\",\n    \"input_variables\": [],\n}\nprompt = load_prompt_from_config(config)\nprint(prompt.template)  # file contents disclosed\n\n# Reads ../../etc/secret.txt via directory traversal\nconfig = {\n    \"_type\": \"prompt\",\n    \"template_path\": \"../../etc/secret.txt\",\n    \"input_variables\": [],\n}\nprompt = load_prompt_from_config(config)\n\n# Reads arbitrary .json via few-shot examples\nconfig = {\n    \"_type\": \"few_shot\",\n    \"examples\": \"../../../../.docker/config.json\",\n    \"example_prompt\": {\n        \"_type\": \"prompt\",\n        \"input_variables\": [\"input\", \"output\"],\n        \"template\": \"{input}: {output}\",\n    },\n    \"prefix\": \"\",\n    \"suffix\": \"{query}\",\n    \"input_variables\": [\"query\"],\n}\nprompt = load_prompt_from_config(config)\n```\n\n## Mitigation\n\n**Update `langchain-core` to \u003e= 1.2.22.**\n\nThe fix adds path validation that rejects absolute paths and `..` traversal sequences by default. An `allow_dangerous_paths=True` keyword argument is available on `load_prompt()` and `load_prompt_from_config()` for trusted inputs.\n\nAs described above, these legacy APIs have been formally deprecated. Users should migrate to `dumpd`/`dumps`/`load`/`loads` from `langchain_core.load`.\n\n## Credit\n\n- [jiayuqi7813](https://github.com/jiayuqi7813) reporter\n- [VladimirEliTokarev](https://github.com/VladimirEliTokarev) reporter\n- [Rickidevs](https://github.com/Rickidevs) reporter\n- Kenneth Cox (cczine@gmail.com) reporter",
+              "id": "GHSA-qh6h-p6c9-ff54",
+              "modified": "2026-03-27T20:04:44.941644Z",
+              "published": "2026-03-27T19:45:00Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/security/advisories/GHSA-qh6h-p6c9-ff54"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/commit/27add913474e01e33bededf4096151130ba0d47c"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/langchain-ai/langchain"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core==1.2.22"
+                }
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "langgraph",
+            "version": "1.0.6",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-g48c-2wqr-h844"
+              ],
+              "aliases": [
+                "CVE-2026-28277",
+                "GHSA-g48c-2wqr-h844"
+              ],
+              "max_severity": "6.8"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 1.0.9",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-g48c-2wqr-h844/GHSA-g48c-2wqr-h844.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "langgraph",
+                    "purl": "pkg:pypi/langgraph"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.0.10"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "0.0.10",
+                    "0.0.11",
+                    "0.0.12",
+                    "0.0.13",
+                    "0.0.14",
+                    "0.0.15",
+                    "0.0.16",
+                    "0.0.17",
+                    "0.0.18",
+                    "0.0.19",
+                    "0.0.20",
+                    "0.0.21",
+                    "0.0.22",
+                    "0.0.23",
+                    "0.0.24",
+                    "0.0.25",
+                    "0.0.26",
+                    "0.0.27",
+                    "0.0.28",
+                    "0.0.29",
+                    "0.0.30",
+                    "0.0.31",
+                    "0.0.32",
+                    "0.0.33",
+                    "0.0.34",
+                    "0.0.35",
+                    "0.0.36",
+                    "0.0.37",
+                    "0.0.38",
+                    "0.0.39",
+                    "0.0.40",
+                    "0.0.41",
+                    "0.0.42",
+                    "0.0.43",
+                    "0.0.44",
+                    "0.0.45",
+                    "0.0.46",
+                    "0.0.47",
+                    "0.0.48",
+                    "0.0.49",
+                    "0.0.50",
+                    "0.0.51",
+                    "0.0.52",
+                    "0.0.53",
+                    "0.0.54",
+                    "0.0.55",
+                    "0.0.56",
+                    "0.0.57",
+                    "0.0.58",
+                    "0.0.59",
+                    "0.0.60",
+                    "0.0.61",
+                    "0.0.62",
+                    "0.0.63",
+                    "0.0.64",
+                    "0.0.65",
+                    "0.0.66",
+                    "0.0.67",
+                    "0.0.68",
+                    "0.0.69",
+                    "0.0.8",
+                    "0.0.9",
+                    "0.1.1",
+                    "0.1.10",
+                    "0.1.11",
+                    "0.1.12",
+                    "0.1.13",
+                    "0.1.14",
+                    "0.1.15",
+                    "0.1.16",
+                    "0.1.17",
+                    "0.1.18",
+                    "0.1.19",
+                    "0.1.2",
+                    "0.1.3",
+                    "0.1.4",
+                    "0.1.5",
+                    "0.1.6",
+                    "0.1.7",
+                    "0.1.8",
+                    "0.1.9",
+                    "0.2.0",
+                    "0.2.1",
+                    "0.2.10",
+                    "0.2.11",
+                    "0.2.12",
+                    "0.2.13",
+                    "0.2.14",
+                    "0.2.15",
+                    "0.2.16",
+                    "0.2.17",
+                    "0.2.18",
+                    "0.2.19",
+                    "0.2.2",
+                    "0.2.20",
+                    "0.2.21",
+                    "0.2.22",
+                    "0.2.23",
+                    "0.2.24",
+                    "0.2.25",
+                    "0.2.26",
+                    "0.2.27",
+                    "0.2.28",
+                    "0.2.29",
+                    "0.2.3",
+                    "0.2.30",
+                    "0.2.31",
+                    "0.2.32",
+                    "0.2.33",
+                    "0.2.34",
+                    "0.2.35",
+                    "0.2.36",
+                    "0.2.37",
+                    "0.2.38",
+                    "0.2.39",
+                    "0.2.4",
+                    "0.2.40",
+                    "0.2.41",
+                    "0.2.42",
+                    "0.2.43",
+                    "0.2.44",
+                    "0.2.45",
+                    "0.2.46",
+                    "0.2.47",
+                    "0.2.48",
+                    "0.2.49",
+                    "0.2.5",
+                    "0.2.50",
+                    "0.2.51",
+                    "0.2.52",
+                    "0.2.53",
+                    "0.2.54",
+                    "0.2.55",
+                    "0.2.56",
+                    "0.2.57",
+                    "0.2.58",
+                    "0.2.59",
+                    "0.2.5a0",
+                    "0.2.6",
+                    "0.2.60",
+                    "0.2.61",
+                    "0.2.62",
+                    "0.2.63",
+                    "0.2.64",
+                    "0.2.65",
+                    "0.2.66",
+                    "0.2.67",
+                    "0.2.68",
+                    "0.2.69",
+                    "0.2.7",
+                    "0.2.70",
+                    "0.2.71",
+                    "0.2.72",
+                    "0.2.73",
+                    "0.2.74",
+                    "0.2.75",
+                    "0.2.76",
+                    "0.2.7a0",
+                    "0.2.8",
+                    "0.2.9",
+                    "0.3.0",
+                    "0.3.1",
+                    "0.3.10",
+                    "0.3.11",
+                    "0.3.12",
+                    "0.3.13",
+                    "0.3.14",
+                    "0.3.15",
+                    "0.3.16",
+                    "0.3.17",
+                    "0.3.18",
+                    "0.3.19",
+                    "0.3.2",
+                    "0.3.20",
+                    "0.3.21",
+                    "0.3.22",
+                    "0.3.23",
+                    "0.3.24",
+                    "0.3.25",
+                    "0.3.26",
+                    "0.3.27",
+                    "0.3.28",
+                    "0.3.29",
+                    "0.3.3",
+                    "0.3.30",
+                    "0.3.31",
+                    "0.3.32",
+                    "0.3.33",
+                    "0.3.34",
+                    "0.3.4",
+                    "0.3.5",
+                    "0.3.6",
+                    "0.3.7",
+                    "0.3.8",
+                    "0.3.9",
+                    "0.4.0",
+                    "0.4.1",
+                    "0.4.10",
+                    "0.4.2",
+                    "0.4.3",
+                    "0.4.4",
+                    "0.4.5",
+                    "0.4.6",
+                    "0.4.7",
+                    "0.4.8",
+                    "0.4.9",
+                    "0.5.0",
+                    "0.5.0rc0",
+                    "0.5.0rc1",
+                    "0.5.1",
+                    "0.5.2",
+                    "0.5.3",
+                    "0.5.4",
+                    "0.6.0",
+                    "0.6.0a1",
+                    "0.6.0a2",
+                    "0.6.1",
+                    "0.6.10",
+                    "0.6.11",
+                    "0.6.2",
+                    "0.6.3",
+                    "0.6.4",
+                    "0.6.5",
+                    "0.6.6",
+                    "0.6.7",
+                    "0.6.8",
+                    "0.6.9",
+                    "1.0.0",
+                    "1.0.0a1",
+                    "1.0.0a2",
+                    "1.0.0a3",
+                    "1.0.0a4",
+                    "1.0.0rc1",
+                    "1.0.1",
+                    "1.0.10rc1",
+                    "1.0.2",
+                    "1.0.3",
+                    "1.0.4",
+                    "1.0.5",
+                    "1.0.6",
+                    "1.0.7",
+                    "1.0.8",
+                    "1.0.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-28277"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-502"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-05T20:19:49Z",
+                "nvd_published_at": "2026-03-05T20:16:15Z",
+                "severity": "MODERATE"
+              },
+              "details": "LangGraph checkpointers can load msgpack-encoded checkpoints that reconstruct Python objects during deserialization. If an attacker can modify checkpoint data in the backing store (for example, after a database compromise or other privileged write access to the persistence layer), they can potentially supply a crafted payload that triggers unsafe object reconstruction when the checkpoint is loaded.\n\nThis is a **post-exploitation / defense-in-depth** issue. Exploitation requires the ability to write attacker-controlled checkpoint bytes at rest. In most deployments that prerequisite already implies a serious incident; the additional risk is turning “checkpoint-store write access” into code execution in the application runtime, which can expand blast radius (for example by exposing environment variables or cloud credentials available to the runtime).\n\nThere is no evidence of exploitation in the wild, and LangGraph is not aware of a practical exploitation path in existing deployments today. This change is intended to reduce the blast radius of a checkpoint-store compromise.\n\n## Affected users / systems\n\nUsers may be affected if they:\n\n- use a persistent checkpointer (database, remote store, shared filesystem, etc.),\n- load/resume from checkpoints, and\n- operate in an environment where an attacker could gain privileged write access to checkpoint data in the backing store.\n\nThis issue requires the attacker to be able to modify persisted checkpoint bytes (or to compromise a trusted component that writes them). It is generally not reachable by an unauthenticated remote attacker in a correctly configured deployment.\n\n## Impact\n- Potential **arbitrary code execution** or other unsafe side effects during checkpoint deserialization.\n- Escalation from “write access to checkpoint store” to “code execution in the application runtime,” which may expose runtime secrets or provide access to other systems the runtime can reach.\n\n## Exploitation scenario (high level)\n1. Attacker gains privileged write access to the checkpoint store (for example, via database compromise, leaked credentials, or abuse of an administrative data path).\n2. Attacker writes a crafted checkpoint payload containing msgpack data intended to reconstruct dangerous objects.\n3. Application resumes and deserializes the checkpoint; unsafe reconstruction could execute attacker-controlled behavior.\n\n## Mitigation / remediation\nLangGraph provides an allowlist-based hardening mechanism for msgpack checkpoint deserialization.\n\n### Strict mode (environment variable)\n- **`LANGGRAPH_STRICT_MSGPACK`**\n  - When set truthy (`1`, `true`, `yes`), the default msgpack deserialization policy becomes strict.\n  - Concretely: `JsonPlusSerializer()` will default `allowed_msgpack_modules` to `None` (strict) instead of `True` (warn-and-allow), unless `allowed_msgpack_modules=...` is explicitly passed.\n\n### `allowed_msgpack_modules` (serializer/checkpointer config)\nThis setting controls what msgpack “ext” types are allowed to be reconstructed.\n\n- `True` (default when strict mode is not enabled): allow all ext types, but log a warning when deserializing a type that is not explicitly registered.\n- `None` (strict): only a built-in safe set is reconstructed; other ext types are blocked.\n- `[(module, class_name), ...]` (strict allowlist): the built-in safe set plus exactly the listed symbols are reconstructed (exact-match).\n\n### Built-in safe set\nA small set of types is always treated as safe to reconstruct (for example `datetime` types, `uuid.UUID`, `decimal.Decimal`, `set`/`frozenset`/`deque`, `ipaddress` types, `pathlib` paths, `zoneinfo.ZoneInfo`, compiled regex patterns, and selected LangGraph internal types).\n\n### Automatically derived allowlist (only when compiling graphs)\nWhen `LANGGRAPH_STRICT_MSGPACK` is enabled and `StateGraph` is compiled, LangGraph derives an allowlist from the graph’s schemas and channels and applies it to the checkpointer.\n\n- The allowlist is built by walking the state/input/output/context schemas (plus node/branch input schemas) and channel value/update types. It includes Pydantic v1/v2 models, dataclasses, enums, TypedDict field types, and common typing constructs (containers, unions, `Annotated`).\n- LangGraph also includes a curated set of common LangChain message classes.\n\nThis derived allowlist is only applied if the selected checkpointer supports `with_allowlist(...)`. If a user is constructing serializers/checkpointers manually (or using a checkpointer that does not support allowlist propagation), they will need to configure `allowed_msgpack_modules` themselves.\n\n### Operational guidance\n- Treat checkpoint stores as integrity-sensitive. Restrict write access and rotate credentials if compromise is suspected.\n- Enable strict mode (`LANGGRAPH_STRICT_MSGPACK=true`) in production if feasible, and rely on schema-driven allowlisting to reduce incompatibilities.\n- Avoid providing custom msgpack deserialization hooks that reconstruct arbitrary types unless checkpoint data is fully trusted.\n\n## Limitations / important notes\n- If a checkpointer implementation does **not** support allowlist application (i.e., does not implement `with_allowlist`), allowlist enforcement may be skipped (with a warning). In that situation, strict expectations may not hold.\n- If an application supplies a custom msgpack unpack hook (`ext_hook`), the custom hook controls reconstruction and can bypass the default allowlist checks (intentional escape hatch, but it weakens the protection).\n\n## LangSmith / hosted deployments note\nLangSmith is not aware of this issue presenting risk to existing LangSmith-hosted deployments. The described threat model requires an attacker to tamper with the checkpoint persistence layer used by the deployment; typical hosted configurations are designed to prevent such access.\n\nFirst reported by:  yardenporat353",
+              "id": "GHSA-g48c-2wqr-h844",
+              "modified": "2026-03-09T13:31:27.371219Z",
+              "published": "2026-03-05T20:19:49Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/langchain-ai/langgraph/security/advisories/GHSA-g48c-2wqr-h844"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28277"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/langchain-ai/langgraph"
+                }
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "LangGraph checkpoint loading has unsafe msgpack deserialization"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "orjson",
+            "version": "3.11.5",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-hx9q-6w63-j58v"
+              ],
+              "aliases": [
+                "CVE-2025-67221",
+                "GHSA-hx9q-6w63-j58v"
+              ],
+              "max_severity": "7.7"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-hx9q-6w63-j58v/GHSA-hx9q-6w63-j58v.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "orjson",
+                    "purl": "pkg:pypi/orjson"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "3.11.6"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.0.0",
+                    "1.0.1",
+                    "1.1.0",
+                    "1.2.0",
+                    "1.2.1",
+                    "1.3.0",
+                    "1.3.1",
+                    "2.0.0",
+                    "2.0.1",
+                    "2.0.10",
+                    "2.0.11",
+                    "2.0.2",
+                    "2.0.3",
+                    "2.0.4",
+                    "2.0.5",
+                    "2.0.6",
+                    "2.0.7",
+                    "2.0.8",
+                    "2.0.9",
+                    "2.1.0",
+                    "2.1.1",
+                    "2.1.2",
+                    "2.1.3",
+                    "2.1.4",
+                    "2.2.0",
+                    "2.2.1",
+                    "2.2.2",
+                    "2.3.0",
+                    "2.4.0",
+                    "2.5.0",
+                    "2.5.1",
+                    "2.5.2",
+                    "2.6.0",
+                    "2.6.1",
+                    "2.6.2",
+                    "2.6.3",
+                    "2.6.4",
+                    "2.6.5",
+                    "2.6.6",
+                    "2.6.7",
+                    "2.6.8",
+                    "3.0.0",
+                    "3.0.1",
+                    "3.0.2",
+                    "3.1.0",
+                    "3.1.1",
+                    "3.1.2",
+                    "3.10.0",
+                    "3.10.1",
+                    "3.10.10",
+                    "3.10.11",
+                    "3.10.12",
+                    "3.10.13",
+                    "3.10.14",
+                    "3.10.15",
+                    "3.10.16",
+                    "3.10.17",
+                    "3.10.18",
+                    "3.10.2",
+                    "3.10.3",
+                    "3.10.4",
+                    "3.10.5",
+                    "3.10.6",
+                    "3.10.7",
+                    "3.10.8",
+                    "3.10.9",
+                    "3.11.0",
+                    "3.11.1",
+                    "3.11.2",
+                    "3.11.3",
+                    "3.11.4",
+                    "3.11.5",
+                    "3.2.0",
+                    "3.2.1",
+                    "3.2.2",
+                    "3.3.0",
+                    "3.3.1",
+                    "3.4.0",
+                    "3.4.1",
+                    "3.4.2",
+                    "3.4.3",
+                    "3.4.4",
+                    "3.4.5",
+                    "3.4.6",
+                    "3.4.7",
+                    "3.4.8",
+                    "3.5.0",
+                    "3.5.1",
+                    "3.5.2",
+                    "3.5.3",
+                    "3.5.4",
+                    "3.6.0",
+                    "3.6.1",
+                    "3.6.2",
+                    "3.6.3",
+                    "3.6.4",
+                    "3.6.5",
+                    "3.6.6",
+                    "3.6.7",
+                    "3.6.8",
+                    "3.6.9",
+                    "3.7.0",
+                    "3.7.1",
+                    "3.7.10",
+                    "3.7.11",
+                    "3.7.12",
+                    "3.7.2",
+                    "3.7.3",
+                    "3.7.4",
+                    "3.7.5",
+                    "3.7.6",
+                    "3.7.7",
+                    "3.7.8",
+                    "3.7.9",
+                    "3.8.0",
+                    "3.8.1",
+                    "3.8.10",
+                    "3.8.11",
+                    "3.8.12",
+                    "3.8.13",
+                    "3.8.14",
+                    "3.8.2",
+                    "3.8.3",
+                    "3.8.4",
+                    "3.8.5",
+                    "3.8.6",
+                    "3.8.7",
+                    "3.8.8",
+                    "3.8.9",
+                    "3.9.0",
+                    "3.9.1",
+                    "3.9.10",
+                    "3.9.11",
+                    "3.9.12",
+                    "3.9.13",
+                    "3.9.14",
+                    "3.9.15",
+                    "3.9.2",
+                    "3.9.3",
+                    "3.9.4",
+                    "3.9.5",
+                    "3.9.6",
+                    "3.9.7",
+                    "3.9.8",
+                    "3.9.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2025-67221"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-770"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-01-22T18:55:43Z",
+                "nvd_published_at": "2026-01-22T17:16:01Z",
+                "severity": "HIGH"
+              },
+              "details": "The orjson.dumps function in orjson before 3.11.6 does not limit recursion for deeply nested JSON documents.",
+              "id": "GHSA-hx9q-6w63-j58v",
+              "modified": "2026-03-14T07:08:56.282727Z",
+              "published": "2026-01-22T18:30:33Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67221"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ijl/orjson/issues/620"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/kpatsakis/CVE-2025-67221/issues/1"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ijl/orjson/commit/62bb185b70785ded49c79c26f8c9781f1e6fe370"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/ijl/orjson"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/kpatsakis/orjson_vulnerability"
+                }
+              ],
+              "related": [
+                "CGA-2m5c-j9g3-7mvq"
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "orjson does not limit recursion for deeply nested JSON documents"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "pyjwt",
+            "version": "2.10.1",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-752w-5fwx-jx9f"
+              ],
+              "aliases": [
+                "CVE-2026-32597",
+                "GHSA-752w-5fwx-jx9f"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 2.11.0",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-752w-5fwx-jx9f/GHSA-752w-5fwx-jx9f.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "pyjwt",
+                    "purl": "pkg:pypi/pyjwt"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "2.12.0"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "0.1.1",
+                    "0.1.2",
+                    "0.1.3",
+                    "0.1.4",
+                    "0.1.5",
+                    "0.1.6",
+                    "0.1.7",
+                    "0.1.8",
+                    "0.1.9",
+                    "0.2.0",
+                    "0.2.1",
+                    "0.2.3",
+                    "0.3.0",
+                    "0.3.1",
+                    "0.3.2",
+                    "0.4.0",
+                    "0.4.1",
+                    "0.4.2",
+                    "0.4.3",
+                    "1.0.0",
+                    "1.0.1",
+                    "1.1.0",
+                    "1.3.0",
+                    "1.4.0",
+                    "1.4.1",
+                    "1.4.2",
+                    "1.5.0",
+                    "1.5.1",
+                    "1.5.2",
+                    "1.5.3",
+                    "1.6.0",
+                    "1.6.1",
+                    "1.6.3",
+                    "1.6.4",
+                    "1.7.0",
+                    "1.7.1",
+                    "2.0.0",
+                    "2.0.0a1",
+                    "2.0.0a2",
+                    "2.0.1",
+                    "2.1.0",
+                    "2.10.0",
+                    "2.10.1",
+                    "2.11.0",
+                    "2.2.0",
+                    "2.3.0",
+                    "2.4.0",
+                    "2.5.0",
+                    "2.6.0",
+                    "2.7.0",
+                    "2.8.0",
+                    "2.9.0"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-32597"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-345",
+                  "CWE-863"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-13T20:05:04Z",
+                "nvd_published_at": "2026-03-13T19:55:09Z",
+                "severity": "HIGH"
+              },
+              "details": "## Summary\n\nPyJWT does not validate the `crit` (Critical) Header Parameter defined in\nRFC 7515 §4.1.11. When a JWS token contains a `crit` array listing\nextensions that PyJWT does not understand, the library accepts the token\ninstead of rejecting it. This violates the **MUST** requirement in the RFC.\n\nThis is the same class of vulnerability as CVE-2025-59420 (Authlib),\nwhich received CVSS 7.5 (HIGH).\n\n---\n\n## RFC Requirement\n\nRFC 7515 §4.1.11:\n\n\u003e The \"crit\" (Critical) Header Parameter indicates that extensions to this\n\u003e specification and/or [JWA] are being used that **MUST** be understood and\n\u003e processed. [...] If any of the listed extension Header Parameters are\n\u003e **not understood and supported** by the recipient, then the **JWS is invalid**.\n\n---\n\n## Proof of Concept\n\n```python\nimport jwt  # PyJWT 2.8.0\nimport hmac, hashlib, base64, json\n\n# Construct token with unknown critical extension\nheader = {\"alg\": \"HS256\", \"crit\": [\"x-custom-policy\"], \"x-custom-policy\": \"require-mfa\"}\npayload = {\"sub\": \"attacker\", \"role\": \"admin\"}\n\ndef b64url(data):\n    return base64.urlsafe_b64encode(data).rstrip(b\"=\").decode()\n\nh = b64url(json.dumps(header, separators=(\",\", \":\")).encode())\np = b64url(json.dumps(payload, separators=(\",\", \":\")).encode())\nsig = b64url(hmac.new(b\"secret\", f\"{h}.{p}\".encode(), hashlib.sha256).digest())\ntoken = f\"{h}.{p}.{sig}\"\n\n# Should REJECT — x-custom-policy is not understood by PyJWT\ntry:\n    result = jwt.decode(token, \"secret\", algorithms=[\"HS256\"])\n    print(f\"ACCEPTED: {result}\")\n    # Output: ACCEPTED: {'sub': 'attacker', 'role': 'admin'}\nexcept Exception as e:\n    print(f\"REJECTED: {e}\")\n```\n\n**Expected:** `jwt.exceptions.InvalidTokenError: Unsupported critical extension: x-custom-policy`\n**Actual:** Token accepted, payload returned.\n\n### Comparison with RFC-compliant library\n\n```python\n# jwcrypto — correctly rejects\nfrom jwcrypto import jwt as jw_jwt, jwk\nkey = jwk.JWK(kty=\"oct\", k=b64url(b\"secret\"))\njw_jwt.JWT(jwt=token, key=key, algs=[\"HS256\"])\n# raises: InvalidJWSObject('Unknown critical header: \"x-custom-policy\"')\n```\n\n---\n\n## Impact\n\n- **Split-brain verification** in mixed-library deployments (e.g., API\n  gateway using jwcrypto rejects, backend using PyJWT accepts)\n- **Security policy bypass** when `crit` carries enforcement semantics\n  (MFA, token binding, scope restrictions)\n- **Token binding bypass** — RFC 7800 `cnf` (Proof-of-Possession) can be\n  silently ignored\n- See CVE-2025-59420 for full impact analysis\n\n---\n\n## Suggested Fix\n\nIn `jwt/api_jwt.py`, add validation in `_validate_headers()` or\n`decode()`:\n\n```python\n_SUPPORTED_CRIT = {\"b64\"}  # Add extensions PyJWT actually supports\n\ndef _validate_crit(self, headers: dict) -\u003e None:\n    crit = headers.get(\"crit\")\n    if crit is None:\n        return\n    if not isinstance(crit, list) or len(crit) == 0:\n        raise InvalidTokenError(\"crit must be a non-empty array\")\n    for ext in crit:\n        if ext not in self._SUPPORTED_CRIT:\n            raise InvalidTokenError(f\"Unsupported critical extension: {ext}\")\n        if ext not in headers:\n            raise InvalidTokenError(f\"Critical extension {ext} not in header\")\n```\n\n---\n\n## CWE\n\n- CWE-345: Insufficient Verification of Data Authenticity\n- CWE-863: Incorrect Authorization\n\n## References\n\n- [RFC 7515 §4.1.11](https://www.rfc-editor.org/rfc/rfc7515.html#section-4.1.11)\n- [CVE-2025-59420 — Authlib crit bypass (CVSS 7.5)](https://osv.dev/vulnerability/GHSA-9ggr-2464-2j32)\n- [RFC 7800 — Proof-of-Possession Key Semantics](https://www.rfc-editor.org/rfc/rfc7800)",
+              "id": "GHSA-752w-5fwx-jx9f",
+              "modified": "2026-03-16T17:17:41.901919Z",
+              "published": "2026-03-13T20:05:04Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/jpadilla/pyjwt/security/advisories/GHSA-752w-5fwx-jx9f"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32597"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/jpadilla/pyjwt"
+                }
+              ],
+              "related": [
+                "CGA-77vp-4q83-qrv6"
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "PyJWT accepts unknown `crit` header extensions"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "pyyaml",
+            "version": "5.3",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "PYSEC-2020-96",
+                "GHSA-6757-jp84-gxfx"
+              ],
+              "aliases": [
+                "CVE-2020-1747",
+                "CVE-2025-50460",
+                "GHSA-6757-jp84-gxfx",
+                "GHSA-fm6c-f59h-7mmg",
+                "PYSEC-2020-96"
+              ],
+              "max_severity": "9.8"
+            },
+            {
+              "ids": [
+                "PYSEC-2021-142",
+                "GHSA-8q59-q68h-6hv4"
+              ],
+              "aliases": [
+                "CVE-2020-14343",
+                "GHSA-8q59-q68h-6hv4",
+                "PYSEC-2021-142"
+              ],
+              "max_severity": "9.8"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pyyaml/PYSEC-2020-96.yaml"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "pyyaml",
+                    "purl": "pkg:pypi/pyyaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.1"
+                        },
+                        {
+                          "fixed": "5.3.1"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.1",
+                    "5.1.1",
+                    "5.1.2",
+                    "5.2b1",
+                    "5.2",
+                    "5.3b1",
+                    "5.3"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-1747",
+                "CVE-2025-50460",
+                "GHSA-6757-jp84-gxfx",
+                "GHSA-fm6c-f59h-7mmg"
+              ],
+              "details": "A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor.",
+              "id": "PYSEC-2020-96",
+              "modified": "2026-03-16T03:12:34.018737Z",
+              "published": "2020-03-24T15:15:00Z",
+              "references": [
+                {
+                  "type": "REPORT",
+                  "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1747"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/pull/386"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WORRFHPQVAFKKXXWLSSW6XKUYLWM6CSH/"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZBJA3SGNJKCAYPSHOHWY3KBCWNM5NYK2/"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/K5HEPD7LEVDPCITY5IMDYWXUMX37VFMY/"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00017.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00017.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MMQXSZXNJT6ERABJZAAICI3DQSQLCP3D/"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7PPAS6C4SZRDQLR7C22A5U3QOLXY33JX/"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+                }
+              ],
+              "schema_version": "1.7.5"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pyyaml/PYSEC-2021-142.yaml"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "pyyaml",
+                    "purl": "pkg:pypi/pyyaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "5.4"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "3.01",
+                    "3.02",
+                    "3.03",
+                    "3.04",
+                    "3.05",
+                    "3.06",
+                    "3.07",
+                    "3.08",
+                    "3.09",
+                    "3.10",
+                    "3.11",
+                    "3.12",
+                    "3.13",
+                    "3.13b1",
+                    "3.13rc1",
+                    "4.2b1",
+                    "4.2b2",
+                    "4.2b4",
+                    "5.1",
+                    "5.1.1",
+                    "5.1.2",
+                    "5.1b1",
+                    "5.1b3",
+                    "5.1b5",
+                    "5.1b7",
+                    "5.2",
+                    "5.2b1",
+                    "5.3",
+                    "5.3.1",
+                    "5.3b1",
+                    "5.4b1",
+                    "5.4b2"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-14343",
+                "GHSA-8q59-q68h-6hv4"
+              ],
+              "details": "A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.",
+              "id": "PYSEC-2021-142",
+              "modified": "2023-11-08T04:02:26.414885Z",
+              "published": "2021-02-09T21:15:00Z",
+              "references": [
+                {
+                  "type": "REPORT",
+                  "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1860466"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+                }
+              ],
+              "schema_version": "1.7.3"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/04/GHSA-6757-jp84-gxfx/GHSA-6757-jp84-gxfx.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "pyyaml",
+                    "purl": "pkg:pypi/pyyaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "5.1b7"
+                        },
+                        {
+                          "fixed": "5.3.1"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "5.1",
+                    "5.1.1",
+                    "5.1.2",
+                    "5.1b7",
+                    "5.2",
+                    "5.2b1",
+                    "5.3",
+                    "5.3b1"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-1747",
+                "CVE-2025-50460",
+                "GHSA-fm6c-f59h-7mmg",
+                "PYSEC-2020-96"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-20"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-04-07T22:29:00Z",
+                "nvd_published_at": "2020-03-24T15:15:00Z",
+                "severity": "CRITICAL"
+              },
+              "details": "A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor.",
+              "id": "GHSA-6757-jp84-gxfx",
+              "modified": "2026-03-16T03:13:40.304259Z",
+              "published": "2021-04-20T16:14:24Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1747"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/github/advisory-database/pull/4942"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/pull/386"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/commit/0cedb2a0697b2bc49e4f3841b8d4590b6b15657e"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/commit/5080ba513377b6355a0502104846ee804656f1e0"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1747"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pyyaml/PYSEC-2020-96.yaml"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/yaml/pyyaml"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7PPAS6C4SZRDQLR7C22A5U3QOLXY33JX"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/K5HEPD7LEVDPCITY5IMDYWXUMX37VFMY"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MMQXSZXNJT6ERABJZAAICI3DQSQLCP3D"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WORRFHPQVAFKKXXWLSSW6XKUYLWM6CSH"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZBJA3SGNJKCAYPSHOHWY3KBCWNM5NYK2"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://lists.opensuse.org/opensuse-security-announce/2020-04/msg00017.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://lists.opensuse.org/opensuse-security-announce/2020-05/msg00017.html"
+                }
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                  "type": "CVSS_V3"
+                },
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Improper Input Validation in PyYAML"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/03/GHSA-8q59-q68h-6hv4/GHSA-8q59-q68h-6hv4.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "pyyaml",
+                    "purl": "pkg:pypi/pyyaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "5.4"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "3.01",
+                    "3.02",
+                    "3.03",
+                    "3.04",
+                    "3.05",
+                    "3.06",
+                    "3.07",
+                    "3.08",
+                    "3.09",
+                    "3.10",
+                    "3.11",
+                    "3.12",
+                    "3.13",
+                    "3.13b1",
+                    "3.13rc1",
+                    "4.2b1",
+                    "4.2b2",
+                    "4.2b4",
+                    "5.1",
+                    "5.1.1",
+                    "5.1.2",
+                    "5.1b1",
+                    "5.1b3",
+                    "5.1b5",
+                    "5.1b7",
+                    "5.2",
+                    "5.2b1",
+                    "5.3",
+                    "5.3.1",
+                    "5.3b1",
+                    "5.4b1",
+                    "5.4b2"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-14343",
+                "PYSEC-2021-142"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-20"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-03-25T21:15:23Z",
+                "nvd_published_at": "2021-02-09T21:15:00Z",
+                "severity": "CRITICAL"
+              },
+              "details": "A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.",
+              "id": "GHSA-8q59-q68h-6hv4",
+              "modified": "2026-02-04T03:33:10.792778Z",
+              "published": "2021-03-25T21:26:26Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14343"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/SeldonIO/seldon-core/issues/2252"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/issues/420"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/issues/420#issuecomment-663673966"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/yaml/pyyaml/commit/a001f2782501ad2d24986959f0239a354675f9dc"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1860466"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pyyaml/PYSEC-2021-142.yaml"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/yaml/pyyaml"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://pypi.org/project/PyYAML"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                }
+              ],
+              "related": [
+                "CVE-2026-24009"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                  "type": "CVSS_V3"
+                },
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Improper Input Validation in PyYAML"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "requests",
+            "version": "2.32.5",
+            "ecosystem": "PyPI"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-gc5v-m9x4-r6x2"
+              ],
+              "aliases": [
+                "CVE-2026-25645",
+                "GHSA-gc5v-m9x4-r6x2"
+              ],
+              "max_severity": "4.4"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/03/GHSA-gc5v-m9x4-r6x2/GHSA-gc5v-m9x4-r6x2.json"
+                  },
+                  "package": {
+                    "ecosystem": "PyPI",
+                    "name": "requests",
+                    "purl": "pkg:pypi/requests"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "2.33.0"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "0.0.1",
+                    "0.10.0",
+                    "0.10.1",
+                    "0.10.2",
+                    "0.10.3",
+                    "0.10.4",
+                    "0.10.6",
+                    "0.10.7",
+                    "0.10.8",
+                    "0.11.1",
+                    "0.11.2",
+                    "0.12.0",
+                    "0.12.01",
+                    "0.12.1",
+                    "0.13.0",
+                    "0.13.1",
+                    "0.13.2",
+                    "0.13.3",
+                    "0.13.4",
+                    "0.13.5",
+                    "0.13.6",
+                    "0.13.7",
+                    "0.13.8",
+                    "0.13.9",
+                    "0.14.0",
+                    "0.14.1",
+                    "0.14.2",
+                    "0.2.0",
+                    "0.2.1",
+                    "0.2.2",
+                    "0.2.3",
+                    "0.2.4",
+                    "0.3.0",
+                    "0.3.1",
+                    "0.3.2",
+                    "0.3.3",
+                    "0.3.4",
+                    "0.4.0",
+                    "0.4.1",
+                    "0.5.0",
+                    "0.5.1",
+                    "0.6.0",
+                    "0.6.1",
+                    "0.6.2",
+                    "0.6.3",
+                    "0.6.4",
+                    "0.6.5",
+                    "0.6.6",
+                    "0.7.0",
+                    "0.7.1",
+                    "0.7.2",
+                    "0.7.3",
+                    "0.7.4",
+                    "0.7.5",
+                    "0.7.6",
+                    "0.8.0",
+                    "0.8.1",
+                    "0.8.2",
+                    "0.8.3",
+                    "0.8.4",
+                    "0.8.5",
+                    "0.8.6",
+                    "0.8.7",
+                    "0.8.8",
+                    "0.8.9",
+                    "0.9.0",
+                    "0.9.1",
+                    "0.9.2",
+                    "0.9.3",
+                    "1.0.0",
+                    "1.0.1",
+                    "1.0.2",
+                    "1.0.3",
+                    "1.0.4",
+                    "1.1.0",
+                    "1.2.0",
+                    "1.2.1",
+                    "1.2.2",
+                    "1.2.3",
+                    "2.0.0",
+                    "2.0.1",
+                    "2.1.0",
+                    "2.10.0",
+                    "2.11.0",
+                    "2.11.1",
+                    "2.12.0",
+                    "2.12.1",
+                    "2.12.2",
+                    "2.12.3",
+                    "2.12.4",
+                    "2.12.5",
+                    "2.13.0",
+                    "2.14.0",
+                    "2.14.1",
+                    "2.14.2",
+                    "2.15.0",
+                    "2.15.1",
+                    "2.16.0",
+                    "2.16.1",
+                    "2.16.2",
+                    "2.16.3",
+                    "2.16.4",
+                    "2.16.5",
+                    "2.17.0",
+                    "2.17.1",
+                    "2.17.2",
+                    "2.17.3",
+                    "2.18.0",
+                    "2.18.1",
+                    "2.18.2",
+                    "2.18.3",
+                    "2.18.4",
+                    "2.19.0",
+                    "2.19.1",
+                    "2.2.0",
+                    "2.2.1",
+                    "2.20.0",
+                    "2.20.1",
+                    "2.21.0",
+                    "2.22.0",
+                    "2.23.0",
+                    "2.24.0",
+                    "2.25.0",
+                    "2.25.1",
+                    "2.26.0",
+                    "2.27.0",
+                    "2.27.1",
+                    "2.28.0",
+                    "2.28.1",
+                    "2.28.2",
+                    "2.29.0",
+                    "2.3.0",
+                    "2.30.0",
+                    "2.31.0",
+                    "2.32.0",
+                    "2.32.1",
+                    "2.32.2",
+                    "2.32.3",
+                    "2.32.4",
+                    "2.32.5",
+                    "2.4.0",
+                    "2.4.1",
+                    "2.4.2",
+                    "2.4.3",
+                    "2.5.0",
+                    "2.5.1",
+                    "2.5.2",
+                    "2.5.3",
+                    "2.6.0",
+                    "2.6.1",
+                    "2.6.2",
+                    "2.7.0",
+                    "2.8.0",
+                    "2.8.1",
+                    "2.9.0",
+                    "2.9.1",
+                    "2.9.2"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-25645"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-377"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-03-25T16:56:28Z",
+                "nvd_published_at": "2026-03-25T17:16:52Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Impact\nThe `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one.\n\n### Affected usages\n**Standard usage of the Requests library is not affected by this vulnerability.** Only applications that call `extract_zipped_paths()` directly are impacted.\n\n### Remediation\nUpgrade to at least Requests 2.33.0, where the library now extracts files to a non-deterministic location.\n\nIf developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access.",
+              "id": "GHSA-gc5v-m9x4-r6x2",
+              "modified": "2026-03-27T22:17:33.595885Z",
+              "published": "2026-03-25T16:56:28Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/psf/requests/security/advisories/GHSA-gc5v-m9x4-r6x2"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25645"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/psf/requests/commit/66d21cb07bd6255b1280291c4fafb71803cdb3b7"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/psf/requests"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/psf/requests/releases/tag/v2.33.0"
+                }
+              ],
+              "related": [
+                "CGA-xjwq-gmv4-jm7w"
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}
